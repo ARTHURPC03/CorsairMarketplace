@@ -1,17 +1,33 @@
-import 'react-native-gesture-handler';
-import React from 'react';
-import { View, StatusBar } from 'react-native';
+import 'react-native-gesture-handler'
 
-import Routes from './routes';
-import AppContainer from './hooks';
+import React, { useState } from 'react'
+import { ThemeProvider } from 'styled-components'
+import { StatusBar } from 'react-native'
 
-const App: React.FC = () => (
-  <View style={{ backgroundColor: '#312e38', flex: 1 }}>
-    <AppContainer>
-      <StatusBar barStyle="light-content" backgroundColor="#312e38" />
-      <Routes />
-    </AppContainer>
-  </View>
-);
+import ThemeSwitcher from './components/ThemeSwitcher'
 
-export default App;
+import light from './styles/themes/light'
+import dark from './styles/themes/dark'
+
+import Routes from './routes'
+import AppContainer from './hooks'
+
+const App: React.FC = () => {
+  const [theme, setTheme] = useState(dark)
+
+  const toggleTheme = () => {
+    setTheme(theme.title === 'dark' ? light : dark)
+  }
+
+  return (
+    <ThemeProvider theme={theme}>
+      <AppContainer>
+        <StatusBar barStyle="light-content" backgroundColor="#312e38" />
+        <Routes />
+        <ThemeSwitcher toggleTheme={toggleTheme} />
+      </AppContainer>
+    </ThemeProvider>
+  )
+}
+
+export default App
