@@ -2,27 +2,27 @@
   "products": [
     {
       "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 50
+      "title": "Corsair K68 RGB",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/h1f/h0d/9171471728670/-CH-9102010-BR-Gallery-K68-RGB-BR-02.png",
+      "price": 600
     },
     {
       "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 60
+      "title": "Corsair Void ELITE RGB",
+      "image_url": "https://images4.kabum.com.br/produtos/fotos/109994/headset-gamer-wireless-corsair-void-elite-rgb-7-1-som-surround-drivers-50mm-branco-ca-9011202_1583766386_gg.jpg",
+      "price": 699.90
     },
     {
       "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 70
+      "title": "Corsair RGB K55 e Harpoon",
+      "image_url": "https://images0.kabum.com.br/produtos/fotos/93760/93760_1511286640_index_gg.jpg",
+      "price": 605.90
     },
     {
       "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 80
+      "title": "Corsair Vengeance RGB Pro",
+      "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
+      "price": 849.90
     }
   ]
 }
