@@ -30,7 +30,7 @@ export const ProductList = styled(
 `
 
 export const Product = styled.View`
-  background: #fff;
+  background: ${props => props.theme.colors.li};
   padding: 16px 16px;
   border-radius: 5px;
   margin: 8px;
@@ -44,6 +44,7 @@ export const ProductImage = styled.Image`
 `
 
 export const ProductTitle = styled.Text`
+  color: ${props => props.theme.colors.text};
   font-size: 14px;
   margin-top: 10px;
 `

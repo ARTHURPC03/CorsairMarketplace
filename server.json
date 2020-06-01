@@ -9,7 +9,7 @@
     {
       "id": "1234",
       "title": "Corsair Void ELITE RGB",
-      "image_url": "https://images4.kabum.com.br/produtos/fotos/109994/headset-gamer-wireless-corsair-void-elite-rgb-7-1-som-surround-drivers-50mm-branco-ca-9011202_1583766386_gg.jpg",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/h2d/h6d/9496062984222/CA-9011208-NA/Gallery/VOID_ELITE_STEREO_CARBON_01/-CA-9011208-NA-Gallery-VOID-ELITE-STEREO-CARBON-01.png_1200Wx1200H",
       "price": 699.90
     },
     {
@@ -20,6 +20,18 @@
     },
     {
       "id": "123456",
+      "title": "Corsair Vengeance RGB Pro",
+      "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
+      "price": 849.90
+    },
+    {
+      "id": "1234567",
+      "title": "Corsair Vengeance RGB Pro",
+      "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
+      "price": 849.90
+    },
+    {
+      "id": "12345678",
       "title": "Corsair Vengeance RGB Pro",
       "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
       "price": 849.90

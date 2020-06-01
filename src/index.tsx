@@ -22,7 +22,10 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <AppContainer>
-        <StatusBar barStyle="light-content" backgroundColor="#312e38" />
+        <StatusBar
+          barStyle={theme.title === 'dark' ? 'light-content' : 'dark-content'}
+          backgroundColor={theme.title === 'dark' ? '#000000' : '#EBEEF8'}
+        />
         <Routes />
         <ThemeSwitcher toggleTheme={toggleTheme} />
       </AppContainer>

@@ -10,18 +10,16 @@ import { ThemeContext } from 'styled-components'
 import Dashboard from '../pages/Dashboard'
 import Cart from '../pages/Cart'
 
-import Logo from '../assets/logo.png'
-
 const App = createStackNavigator()
 
 const AppRoutes: React.FC = () => {
-  const { title } = useContext(ThemeContext)
+  const { title, logo } = useContext(ThemeContext)
   return (
     <App.Navigator
       screenOptions={{
         headerShown: true,
         cardStyle: {
-          backgroundColor: title === 'dark' ? '#0d0d0d' : '#EBEEF8',
+          backgroundColor: title === 'dark' ? '#000000' : '#EBEEF8',
         },
       }}
       initialRouteName="Dashboard"
@@ -30,7 +28,7 @@ const AppRoutes: React.FC = () => {
         options={{
           headerShown: true,
           headerTransparent: true,
-          headerTitle: () => <Image source={Logo} width={20} />,
+          headerTitle: () => <Image source={logo} width={20} />,
         }}
         name="Dashboard"
         component={Dashboard}
@@ -38,7 +36,7 @@ const AppRoutes: React.FC = () => {
       <App.Screen
         options={{
           headerTransparent: true,
-          headerTitle: () => <Image source={Logo} width={20} />,
+          headerTitle: () => <Image source={logo} width={20} />,
           headerBackTitleVisible: false,
           headerLeftContainerStyle: {
             marginLeft: 20,

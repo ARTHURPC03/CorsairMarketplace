@@ -93,7 +93,7 @@ export const TotalProductsContainer = styled.View`
   bottom: 0px;
 
   flex-direction: row;
-  background: #e83f5b;
+  background: ${props => props.theme.colors.primary};
 
   padding: 20px 40px;
   justify-content: space-between;
