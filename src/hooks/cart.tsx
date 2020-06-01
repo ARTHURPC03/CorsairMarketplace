@@ -9,18 +9,18 @@ import React, {
 import AsyncStorage from '@react-native-community/async-storage'
 
 interface Product {
-  id: string;
-  title: string;
-  image_url: string;
-  price: number;
-  quantity: number;
+  id: string
+  title: string
+  image_url: string
+  price: number
+  quantity: number
 }
 
 interface CartContext {
   products: Product[]
-  addToCart(item: Omit<Product, 'quantity'>): void;
-  increment(id: string): void;
-  decrement(id: string): void;
+  addToCart(item: Omit<Product, 'quantity'>): void
+  increment(id: string): void
+  decrement(id: string): void
 }
 
 const CartContext = createContext<CartContext | null>(null)
@@ -83,16 +83,20 @@ const CartProvider: React.FC = ({ children }) => {
 
   const decrement = useCallback(
     async id => {
-      const newProducts = products.map(product =>
-        product.id === id
-          ? { ...product, quantity: product.quantity - 1 }
-          : product,
-      )
-      setProducts(newProducts)
+      const check = products.filter(prod => prod.id === id)
+      let list
+      if (check[0].quantity < 2) {
+        list = products.filter(prod => prod.id !== id)
+      } else {
+        list = products.map(p =>
+          p.id !== id ? p : { ...p, quantity: p.quantity - 1 },
+        )
+      }
 
+      setProducts(list)
       await AsyncStorage.setItem(
         '@GoMarketplace:products',
-        JSON.stringify(newProducts),
+        JSON.stringify(list),
       )
     },
     [products],
