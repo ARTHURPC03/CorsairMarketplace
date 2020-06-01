@@ -19,7 +19,7 @@ export const ProductList = styled(FlatList)`
 `
 
 export const Product = styled.View`
-  background: #fff;
+  background: ${props => props.theme.colors.li};
   padding: 15px 10px;
   border-radius: 5px;
   margin: 5px;
@@ -38,6 +38,7 @@ export const ProductTitleContainer = styled.View`
 `
 
 export const ProductTitle = styled.Text`
+  color: ${props => props.theme.colors.text};
   font-size: 16px;
 `
 

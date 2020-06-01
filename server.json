@@ -4,37 +4,37 @@
       "id": "123",
       "title": "Corsair K68 RGB",
       "image_url": "https://www.corsair.com/medias/sys_master/images/images/h1f/h0d/9171471728670/-CH-9102010-BR-Gallery-K68-RGB-BR-02.png",
-      "price": 600
+      "price": 1013.90
     },
     {
       "id": "1234",
-      "title": "Corsair Void ELITE RGB",
-      "image_url": "https://www.corsair.com/medias/sys_master/images/images/h2d/h6d/9496062984222/CA-9011208-NA/Gallery/VOID_ELITE_STEREO_CARBON_01/-CA-9011208-NA-Gallery-VOID-ELITE-STEREO-CARBON-01.png_1200Wx1200H",
-      "price": 699.90
+      "title": "Corsair NIGHTSWORD RGB",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/h45/h75/9246086987806/-CH-9306011-NA-Gallery-NIGHTSWORD-RGB-10.png",
+      "price": 549.90
     },
     {
       "id": "12345",
-      "title": "Corsair RGB K55 e Harpoon",
-      "image_url": "https://images0.kabum.com.br/produtos/fotos/93760/93760_1511286640_index_gg.jpg",
-      "price": 605.90
+      "title": "Corsair POLARIS MM800 RGB",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/hf5/hc5/9110600974366/-CH-9440020-NA-Gallery-MM800-01.png",
+      "price": 424.90
     },
     {
       "id": "123456",
-      "title": "Corsair Vengeance RGB Pro",
-      "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
-      "price": 849.90
+      "title": "Corsair Crystal Series 680X",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/h8d/h61/9190318374942/-CC-9011169-WW-Gallery-680X-RGB-White-01.png",
+      "price": 1799.90
     },
     {
       "id": "1234567",
-      "title": "Corsair Vengeance RGB Pro",
-      "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
-      "price": 849.90
+      "title": "Corsair Virtuoso RGB",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/h99/h91/9312777469982/-CA-9011186-NA-Gallery-VIRTUOSO-WHITE-01.png",
+      "price": 1489.90
     },
     {
       "id": "12345678",
-      "title": "Corsair Vengeance RGB Pro",
-      "image_url": "https://images7.kabum.com.br/produtos/fotos/97097/97097_1528987389_index_gg.jpg",
-      "price": 849.90
+      "title": "Corsair T3 Rush",
+      "image_url": "https://www.corsair.com/medias/sys_master/images/images/hf2/h25/9398250209310/-CF-9010031-WW-Gallery-CORSAIR-T3-RUSH-GREY-CHARCOAL-01.png",
+      "price": 1869.91
     }
   ]
 }
