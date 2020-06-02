@@ -7,8 +7,10 @@
 Corsair Marketplace
 </h1>
 
+<p align="center">Application of a Corsair Marketplace, with some of its products, so that the user can add to the cart.</p>
+
 <div align="center" >
-  <img src="./github/Corsair.gif" alt="demo-web" >
+  <img src="./github/Corsair.gif" alt="demo-web">
 </div>
 
 <hr />
