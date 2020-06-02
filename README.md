@@ -8,7 +8,7 @@ Corsair Marketplace
 </h1>
 
 <div align="center" >
-  <img src="./github/Corsair.gif" alt="demo-web" height="425">
+  <img src="./github/Corsair.gif" alt="demo-web" >
 </div>
 
 <hr />
