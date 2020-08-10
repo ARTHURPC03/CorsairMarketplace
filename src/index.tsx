@@ -15,7 +15,7 @@ import AppContainer from './hooks'
 const App: React.FC = () => {
   const [theme, setTheme] = useState(dark)
 
-  const toggleTheme = () => {
+  const toggleTheme = (): void => {
     setTheme(theme.title === 'dark' ? light : dark)
   }
 
